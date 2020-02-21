@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BodyMax</string>
+
+    <string name="spinner_title">Spinner</string>
+</resources>

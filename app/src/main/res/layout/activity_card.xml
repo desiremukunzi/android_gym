@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Card">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:text="Log Out">
+    </TextView>
+<!--    <RelativeLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true">-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Payment with"-->
+<!--            android:id="@+id/header"-->
+<!--            android:textColor="#FFF"-->
+<!--            android:textSize="28dp"-->
+<!--            android:textStyle="bold"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:text="Card"-->
+<!--            android:layout_below="@+id/header"-->
+<!--            android:id="@+id/sub"-->
+<!--            android:textSize="20dp"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:id="@+id/image"-->
+<!--            android:layout_below="@+id/sub"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:text="Please swipe"-->
+<!--            android:textSize="20dp"-->
+<!--            android:layout_below="@+id/image"-->
+<!--            android:id="@+id/swipe"-->
+<!--            android:textColor="#FFF"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:text="the Card"-->
+<!--            android:textSize="20dp"-->
+<!--            android:layout_below="@+id/swipe"-->
+<!--            android:textColor="#FFF"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--    </RelativeLayout>-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:textAlignment="center"-->
+<!--        android:text="Powered BodyMax"-->
+<!--        android:textSize="18dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:layout_height="wrap_content"/>-->
+</RelativeLayout>

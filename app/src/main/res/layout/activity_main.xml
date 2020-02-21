@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainForm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:forceDarkAllowed="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <!--    <android.support.design.widget.AppBarLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:theme="@style/AppTheme.AppBarOverlay">-->
+
+    <!--    <android.support.v7.widget.Toolbar-->
+    <!--        android:id="@+id/toolbar"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="?attr/actionBarSize"-->
+    <!--        android:background="?attr/colorPrimary"-->
+    <!--        app:popupTheme="@style/AppTheme.PopupOverlay" />-->
+    <!--    </android.support.design.widget.AppBarLayout>-->
+
+
+    <TextView
+        android:id="@+id/currentTagView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan a tag"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <!--    <ExpandableListView-->
+    <!--        android:id="@+id/expandableListView"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"-->
+    <!--        android:divider="@android:color/darker_gray"-->
+    <!--        android:dividerHeight="0.5dp" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="109dp"-->
+    <!--        android:text="ADD"-->
+    <!--        tools:layout_editor_absoluteX="148dp"-->
+    <!--        tools:layout_editor_absoluteY="266dp" />-->
+
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editText1"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:ems="10"-->
+    <!--        android:inputType="textPersonName"-->
+    <!--        android:layout_marginLeft="60dp"-->
+    <!--        android:layout_marginTop="40dp"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginLeft="120dp"-->
+    <!--        android:text="Button" />-->
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:onClick="logout"
+        android:text="Logout" />
+
+</LinearLayout>
